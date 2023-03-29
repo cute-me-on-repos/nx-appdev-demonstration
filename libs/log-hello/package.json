@@ -1,0 +1,18 @@
+{
+  "name": "log-hello",
+  "version": "1.0.0",
+  "description": "log hello string",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo no test",
+    "build": "tsc"
+  }, 
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.2"
+  },
+  "author": "thien.ly",
+  "license": "MIT"
+}
