@@ -1,9 +1,4 @@
 {
-  "compilerOptions": {
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true
-  },
   "include": ["**/*.ts", "!**/*.d.ts", "!*.d.ts"],
   "extends": "./tsconfig.base.json"
 }

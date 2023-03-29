@@ -7,7 +7,6 @@ import { join } from 'path';
 
 export default defineConfig({
   cacheDir: '../../node_modules/.vite/new-react-lib',
-
   plugins: [
     dts({
       entryRoot: 'src',
