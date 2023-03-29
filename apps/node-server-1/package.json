@@ -24,6 +24,7 @@
   "nx":{
     "targets":{
       "build":{
+        "inputs": ["^default"],
           "dependsOn": ["^build"]
       },
       "start":{

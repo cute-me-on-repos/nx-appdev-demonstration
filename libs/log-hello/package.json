@@ -14,5 +14,13 @@
     "typescript": "^5.0.2"
   },
   "author": "thien.ly",
-  "license": "MIT"
+  "license": "MIT",
+  "nx":{
+    "targets":{
+      "build":{
+        "dependsOn": [],
+        "inputs": ["^default"]
+      }
+    }
+  }
 }

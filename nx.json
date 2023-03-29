@@ -16,7 +16,7 @@
     }
   },
   "namedInputs": {
-    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "default": ["{projectRoot}/**/*.(ts|tsx|json)","!{projectRoot}/**/*.d.ts", "sharedGlobals"],
     "production": ["default"],
     "sharedGlobals": []
   },
